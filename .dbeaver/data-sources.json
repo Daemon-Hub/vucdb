@@ -1,0 +1,78 @@
+{
+	"folders": {},
+	"connections": {
+		"msaccess_ucanaccess-1a0d3f98099-30787ef8fddf3196": {
+			"provider": "generic",
+			"driver": "msaccess_ucanaccess",
+			"name": "Catalog",
+			"save-password": true,
+			"configuration": {
+				"database": "D:\\ВУЦ_БД\\Backend\\Catalog.accdb",
+				"url": "jdbc:ucanaccess://D:\\ВУЦ_БД\\Backend\\Catalog.accdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		},
+		"msaccess_ucanaccess-1a0d3f980dd-505934f9c77c5ba3": {
+			"provider": "generic",
+			"driver": "msaccess_ucanaccess",
+			"name": "main_2026",
+			"save-password": true,
+			"configuration": {
+				"database": "D:\\ВУЦ_БД\\Backend\\main_2026.accdb",
+				"url": "jdbc:ucanaccess://D:\\ВУЦ_БД\\Backend\\main_2026.accdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		},
+		"msaccess_ucanaccess-1a0d3f98119-6053e9cff98230c1": {
+			"provider": "generic",
+			"driver": "msaccess_ucanaccess",
+			"name": "main_2027",
+			"save-password": true,
+			"configuration": {
+				"database": "D:\\ВУЦ_БД\\Backend\\main_2027.accdb",
+				"url": "jdbc:ucanaccess://D:\\ВУЦ_БД\\Backend\\main_2027.accdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		},
+		"msaccess_ucanaccess-1a0d3f9815b-646c04e4816d962c": {
+			"provider": "generic",
+			"driver": "msaccess_ucanaccess",
+			"name": "Manager",
+			"save-password": true,
+			"configuration": {
+				"database": "D:\\ВУЦ_БД\\Manager.accdb",
+				"url": "jdbc:ucanaccess://D:\\ВУЦ_БД\\Manager.accdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Разработка",
+			"color": "255,255,255",
+			"colorDark": "255,255,255",
+			"description": "База данных для разработки",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

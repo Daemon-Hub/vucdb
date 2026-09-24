@@ -1,1 +1,15 @@
+# Access lock files
 *.laccdb
+*.ldb
+
+# Office temp files
+~$*.accdb
+~$*.xlsx
+~$*.docx
+
+# Backups
+*.bak
+
+# OS files
+Thumbs.db
+.DS_Store
